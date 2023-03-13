@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <title>Career Form</Form></title>
+
+</head>
+<body>
+    <style>
+        form {
+          background-image: url('form.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 50px;
+        }
+      </style>
+      
+      <form>
+        <!-- Your form fields go here -->
+      </form>
+      
+    <style>
+        form label, form input {
+        display: inline-block;
+  vertical-align: top;
+}
+
+    </style>
+    <html>
+  <head>
+    <title>Career Form</title>
+  </head>
+  <body>
+    <h1>Career Form</h1>
+    <form action="submit_form.php" method="post">
+      <h2>Personal Information:</h2>
+      <p>
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+      </p>
+      <p>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+      </p>
+      <p>
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" pattern="[0-9]{10}" title="Phone number should be 10 digits" required>
+
+      </p>
+      <p>
+        <label for="email_address">Email Address:</label>
+        <input type="email" id="email_address" name="email_address" required>
+      </p>
+      <p>
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required>
+      </p>
+      <h2>Educational Qualifications:</h2>
+      <p>
+        <label for="degree_and_major">Degree and Major:</label>
+        <input type="text" id="degree_and_major" name="degree_and_major" required>
+      </p>
+      <p>
+        <label for="university_or_college">University or College:</label>
+        <input type="text" id="university_or_college" name="university_or_college" required>
+      </p>
+      <p>
+        <label for="graduation_date">Graduation Date:</label>
+        <input type="date" id="graduation_date" name="graduation_date" required>
+      </p>
+      <p>
+        <label for="relevant_courses_and_grades">Relevant Courses and Grades:</label>
+        <input type="text" id="relevant_courses_and_grades" name="relevant_courses_and_grades" required>
+      </p>
+      <h2>Work Experience:</h2>
+      <p>
+        <label for="current_and_past_job_titles">Current and Past Job Titles:</label>
+        <input type="text" id="current_and_past_job_titles" name="current_and_past_job_titles" required>
+      </p>
+      <p>
+        <label for="company_and_industry">Company and Industry:</label>
+        <input type="text" id="company_and_industry" name="company_and_industry" required>
+      </p>
+      <p>
+        <label for="dates_of_employment">Dates of Employment:</label>
+        <input type="text" id="dates_of_employment" name="dates_of_employment"required>
+      </p>
+      <p>
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="resume"><br><br>
+      </p>
+        <input type="submit" value="Submit">
+
+
+</body>
+</html>
